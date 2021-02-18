@@ -1,0 +1,21 @@
+﻿<Window x:Class="Les___Verwerken_vaste_lengte.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Les___Verwerken_vaste_lengte"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="954" Width="1307">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="323*"/>
+            <ColumnDefinition Width="327*"/>
+            <ColumnDefinition Width="142*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="txtResultaat" HorizontalAlignment="Left" Height="757" Margin="48,52,-453,-390" TextWrapping="Wrap" VerticalAlignment="Top" Width="1197" VerticalScrollBarVisibility="Visible" FontFamily="Courier New" FontSize="14" Grid.ColumnSpan="3"/>
+        <Button x:Name="btnInlezen" Content="Inlezen" HorizontalAlignment="Left" Margin="48,839,0,-482" VerticalAlignment="Top" Width="230" Height="62" FontSize="20" Click="btnInlezen_Click"/>
+        <Button x:Name="btnVerwerken" Content="Verwerken" HorizontalAlignment="Left" Margin="330,839,0,0" VerticalAlignment="Top" Width="230" Height="62" FontSize="20" Click="btnVerwerken_Click" Grid.ColumnSpan="2"/>
+        <Button x:Name="btnNalezen" Content="Nalezen" HorizontalAlignment="Left" Margin="83,839,0,0" VerticalAlignment="Top" Width="230" Height="62" FontSize="20" Click="btnNalezen_Click" Grid.Column="1"/>
+        <Button x:Name="btnSluiten" Content="Sluiten" HorizontalAlignment="Left" Margin="363,839,0,0" VerticalAlignment="Top" Width="230" Height="62" FontSize="20" Click="btnSluiten_Click" Grid.Column="1" Grid.ColumnSpan="2"/>
+    </Grid>
+</Window>
