@@ -1,0 +1,13 @@
+﻿<Window x:Class="Les___email.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Les___email"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="852" Width="1318">
+    <Grid>
+        <TextBox x:Name="txtResultaat" HorizontalAlignment="Left" Height="716" Margin="52,51,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="991" VerticalScrollBarVisibility="Visible" FontFamily="Courier New" FontSize="20"/>
+        <Button x:Name="btnInlezen" Content="Inlezen" HorizontalAlignment="Left" Margin="1076,51,0,0" VerticalAlignment="Top" Width="167" Height="57" FontSize="20" Click="btnInlezen_Click"/>
+    </Grid>
+</Window>
