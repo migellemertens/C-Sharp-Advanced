@@ -1,0 +1,15 @@
+C:\Users\migelle\Documents\Development\C# Advanced\Les - Metingen zonnepanelen\bin\Debug\Les - Metingen zonnepanelen.exe.config
+C:\Users\migelle\Documents\Development\C# Advanced\Les - Metingen zonnepanelen\bin\Debug\Les - Metingen zonnepanelen.exe
+C:\Users\migelle\Documents\Development\C# Advanced\Les - Metingen zonnepanelen\bin\Debug\Les - Metingen zonnepanelen.pdb
+C:\Users\migelle\Documents\Development\C# Advanced\Les - Metingen zonnepanelen\obj\Debug\Les - Metingen zonnepanelen.csprojAssemblyReference.cache
+C:\Users\migelle\Documents\Development\C# Advanced\Les - Metingen zonnepanelen\obj\Debug\MainWindow.g.cs
+C:\Users\migelle\Documents\Development\C# Advanced\Les - Metingen zonnepanelen\obj\Debug\App.g.cs
+C:\Users\migelle\Documents\Development\C# Advanced\Les - Metingen zonnepanelen\obj\Debug\Les - Metingen zonnepanelen_MarkupCompile.cache
+C:\Users\migelle\Documents\Development\C# Advanced\Les - Metingen zonnepanelen\obj\Debug\Les - Metingen zonnepanelen_MarkupCompile.lref
+C:\Users\migelle\Documents\Development\C# Advanced\Les - Metingen zonnepanelen\obj\Debug\MainWindow.baml
+C:\Users\migelle\Documents\Development\C# Advanced\Les - Metingen zonnepanelen\obj\Debug\Les - Metingen zonnepanelen.g.resources
+C:\Users\migelle\Documents\Development\C# Advanced\Les - Metingen zonnepanelen\obj\Debug\Les___Metingen_zonnepanelen.Properties.Resources.resources
+C:\Users\migelle\Documents\Development\C# Advanced\Les - Metingen zonnepanelen\obj\Debug\Les - Metingen zonnepanelen.csproj.GenerateResource.cache
+C:\Users\migelle\Documents\Development\C# Advanced\Les - Metingen zonnepanelen\obj\Debug\Les - Metingen zonnepanelen.csproj.CoreCompileInputs.cache
+C:\Users\migelle\Documents\Development\C# Advanced\Les - Metingen zonnepanelen\obj\Debug\Les - Metingen zonnepanelen.exe
+C:\Users\migelle\Documents\Development\C# Advanced\Les - Metingen zonnepanelen\obj\Debug\Les - Metingen zonnepanelen.pdb
