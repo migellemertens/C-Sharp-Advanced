@@ -1,0 +1,18 @@
+﻿<Window x:Class="Les___Zoeken_in_bestand.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Les___Zoeken_in_bestand"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="1128" Width="1253">
+    <Grid>
+        <Label x:Name="label1" Content="Bestand:" HorizontalAlignment="Left" Margin="46,56,0,0" VerticalAlignment="Top" Width="104" RenderTransformOrigin="0.507,2.077" FontSize="20" Height="35"/>
+        <Label x:Name="label2" Content="ZoekString:" HorizontalAlignment="Left" Margin="46,102,0,0" VerticalAlignment="Top" Width="194" FontSize="20" Height="37"/>
+        <TextBox x:Name="txtBestand" HorizontalAlignment="Left" Height="31" Margin="172,60,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="795" FontSize="20"/>
+        <TextBox x:Name="txtZoekString" HorizontalAlignment="Left" Height="31" Margin="172,102,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="248" FontSize="20" />
+        <Button x:Name="btnBladeren" Content="Bladeren" Margin="1024,43,59,0" VerticalAlignment="Top" FontSize="24" Click="btnBladeren_Click" Height="47"/>
+        <TextBox x:Name="txtResultaat" HorizontalAlignment="Left" Height="886" Margin="46,164,0,0" TextWrapping="Wrap" Text="                  " VerticalAlignment="Top" Width="943" FontSize="20" IsEnabled="False" VerticalScrollBarVisibility="Visible" FontFamily="Courier New"/>
+        <Button x:Name="btnZoeken" Content="Zoeken" Margin="1024,116,59,0" VerticalAlignment="Top" FontSize="24" Click="btnZoeken_Click" Height="47"/>
+    </Grid>
+</Window>
