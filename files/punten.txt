@@ -1,0 +1,26 @@
+Aerts David        aed@pcvohandel.be    M       015020   
+Atay Ufuk          atu@pcvohandel.be    M       012020   
+Claeskens Gert     clg@pcvohandel.be    M       011020   
+Coenegrachts Jimmy coj@pcvohandel.be    M       029040   
+Cooreman Kurt      cok@pcvohandel.be    M       005020   
+Crabbé Brent       crb@pcvohandel.be    M       015030   
+Critelli Marco     crm@pcvohandel.be    M       029040   
+Gijsels Kain       gik@pcvohandel.be    M       029040   
+Hendrikx Koen      hek@pcvohandel.be    M       029040   
+Indekeu Kobe       ink@pcvohandel.be    M       048060   
+Jackers Philippe   jap@pcvohandel.be    M       048060   
+Lemmens Guido      leg@pcvohandel.be    M       015100   
+Makhlova Olga      mao@pcvohandel.be    V       048060   
+Mariman Dennis     mad@pcvohandel.be    M       048060   
+Meulebroeks Jeremy mej@pcvohandel.be    M       048060   
+Paggen Raphaël     par@pcvohandel.be    M       015020   
+Sagdeeva Dinara    sad@pcvohandel.be    V       075100   
+Schils Jan         scj@pcvohandel.be    M       019020 
+Schrooten Liesbet  scl@pcvohandel.be    V       017020  
+Simons Bart        sib@pcvohandel.be    M       075100   
+Seilleur Gwen      seg@pcvohandel.be    M       075100   
+Toelen Thomas      tot@pcvohandel.be    M       075100   
+Van Acker Rudi     var@pcvohandel.be    M       015020   
+Van Mulken Piet    vap@pcvohandel.be    M       015020   
+Vekemans Sander    vep@pcvohandel.be    M       085100   
+Vrancken Isabelle  vri@pcvohandel.be    V       085100   

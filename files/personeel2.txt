@@ -1,0 +1,44 @@
+GVandenbossche       Els                 Kroonweg 2                    3500VA
+GVan Summeren        Koen                Kerkstraat 7                  3500MB
+GLeys                Kristel             Lelielaan 4                   3600VA
+GHox                 Peter               Krekelstraat 11               3500MA
+GDaems               Greta               Sparrenhof 18                 3290VC
+GVaes                Marcel              Valleilaan 4                  3290MA
+GJacobs              Jan                 Luikse steenweg 124           3500MA
+VMaes                Jean                Sparstraat 12                 3800MA105623
+GWillems             Patrick             Kerkstraat 14                 3290MB
+GKuppers             Joke                Putstraat 6                   3600VC
+GLambrechts          Inge                Lange straat 365              3500VA
+GMichiels            Jaak                Putsteeg 5                    3000MC
+GPauwels             Nico                Djef Antenstraat 56           3500MC
+VLaeremans           Claudia             Runkstersteenweg 12           3500VB251099
+GBoonen              Tanja               Krekelstraat 4                3700VA
+GHeuts               Diederik            Grote baan 47                 3500MA
+GPelemans            Jeanne              Leuvensesteenweg 144          3200VB
+GHonings             Linda               Aarschotse steenweg 456       3000VB
+GPeeters             Ellen               Djef Swennenstraat 89         3500VC
+GJenn�               Chantal             Vissegatstraat 60             3800VA
+GMoors               Elke                Dreef 9                       3200VA
+VMichiels            Roger               Koeiestraat 63                3500MB153624
+GNyssens             Louis               Zwaluwstraat 56               3500MA
+GWillems             Luc                 Noteboomstraat 33             3200MA
+GAppeltans           Maurice             Eikestraat 5                  3800MD
+GMari�n              Greet               Geitstraat 123                3000VB
+GVerbist             Michel              Romeinse Kassei 41            3700MB
+GVanhoutven          Nancy               Poelstraat 31                 3500VA
+GWellens             Marijke             Grasstraat 69                 3290VC
+GVanherle            Kristof             Rattesteeg 74                 3600MA
+VMaes                Guido               Demerstraat 14                3290MA176952
+GGoessens            Mark                Elisabethwal 44               3700MA
+GVandessel           Leo                 Elfde Liniestraat 26          3500MA
+GPeters              Luc                 Keizersingel 9                3800MB
+GJanssens            Rudy                Leuvense straat 5             3290MB
+GSmolders            Willem              Hasseltse straat 19           3290MC
+GBrants              Marc                Rietjesweg 37                 3700MB
+GWouters             Maarten             Weg naar As 60                3600MB
+VPeeters             Raf                 Koning Albertstraat 4         3500MA089687
+GJaspers             Hugo                Sluisstraat 4                 3500MA
+GMandervelt          Pascal              Leopoldlaan 12                3500VA
+GVervoort            Geert               Musstraat 58                  3000MA
+G's Heeren           Louis               Putstraat 12                  3700MB
+GDox                 Inge                Shopping 3                    3600VB
