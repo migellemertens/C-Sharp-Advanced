@@ -1,0 +1,22 @@
+﻿<Window x:Class="Toepassing_01___Email_Bestand.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Toepassing_01___Email_Bestand"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="375.882" Width="759.916">
+    <Grid>
+        <TextBox x:Name="TxtResultaat" HorizontalAlignment="Left" Height="313" Margin="10,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="457" FontFamily="Courier New"/>
+        <Button x:Name="BtnInlezen" Content="_Inlezen" HorizontalAlignment="Left" Margin="512,10,0,0" VerticalAlignment="Top" Width="200" Click="BtnInlezen_Click"/>
+        <Button x:Name="BtnInlezenDialoogvenster" Content="Inlezen / _dialoogvenster" HorizontalAlignment="Left" Margin="512,49,0,0" VerticalAlignment="Top" Width="200" Click="BtnInlezenDialoogvenster_Click"/>
+        <Button x:Name="BtnInlezenDictionary" Content="Inlezen / Dictionary" HorizontalAlignment="Left" Margin="512,85,0,0" VerticalAlignment="Top" Width="200" Click="BtnInlezenDictionary_Click"/>
+        <Button x:Name="BtnWegschrijvenDictionary" Content="Wegschrijven / Dictionary" HorizontalAlignment="Left" Margin="512,121,0,0" VerticalAlignment="Top" Width="200" Click="BtnWegschrijvenDictionary_Click"/>
+        <Label Content="Naam" HorizontalAlignment="Left" Margin="512,168,0,0" VerticalAlignment="Top" FontStyle="Italic"/>
+        <TextBox x:Name="TxtNaam" HorizontalAlignment="Left" Height="23" Margin="512,194,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="200"/>
+        <Label Content="E-mailadres" HorizontalAlignment="Left" Margin="512,233,0,0" VerticalAlignment="Top" FontStyle="Italic"/>
+        <TextBox x:Name="TxtEmailadres" HorizontalAlignment="Left" Height="23" Margin="512,259,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="200"/>
+        <Button x:Name="BtnToevoegen" Content="Toevoegen" HorizontalAlignment="Left" Margin="512,303,0,0" VerticalAlignment="Top" Width="200" Click="BtnToevoegen_Click"/>
+
+    </Grid>
+</Window>
