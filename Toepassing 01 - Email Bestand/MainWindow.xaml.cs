@@ -45,6 +45,15 @@ namespace Toepassing_01___Email_Bestand
 
         private void BtnInlezenDialoogvenster_Click(object sender, RoutedEventArgs e)
         {
+            OpenFileDialog ofd = new OpenFileDialog();
+            ofd.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+            string fileLocation;
+
+            if (ofd.ShowDialog() == true)
+            {
+                fileLocation = ofd.FileName;
+                Inlezenbestand(fileLocation);
+            }
 
         }
 
