@@ -13,9 +13,9 @@
         <Button x:Name="BtnInlezenDictionary" Content="Inlezen / Dictionary" HorizontalAlignment="Left" Margin="512,85,0,0" VerticalAlignment="Top" Width="200" Click="BtnInlezenDictionary_Click"/>
         <Button x:Name="BtnWegschrijvenDictionary" Content="Wegschrijven / Dictionary" HorizontalAlignment="Left" Margin="512,121,0,0" VerticalAlignment="Top" Width="200" Click="BtnWegschrijvenDictionary_Click"/>
         <Label Content="Naam" HorizontalAlignment="Left" Margin="512,168,0,0" VerticalAlignment="Top" FontStyle="Italic"/>
-        <TextBox x:Name="TxtNaam" HorizontalAlignment="Left" Height="23" Margin="512,194,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="200"/>
+        <TextBox x:Name="TxtNaam" HorizontalAlignment="Left" Height="23" Margin="512,194,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="200"/>
         <Label Content="E-mailadres" HorizontalAlignment="Left" Margin="512,233,0,0" VerticalAlignment="Top" FontStyle="Italic"/>
-        <TextBox x:Name="TxtEmailadres" HorizontalAlignment="Left" Height="23" Margin="512,259,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="200"/>
+        <TextBox x:Name="TxtEmailadres" HorizontalAlignment="Left" Height="23" Margin="512,259,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="200"/>
         <Button x:Name="BtnToevoegen" Content="Toevoegen" HorizontalAlignment="Left" Margin="512,303,0,0" VerticalAlignment="Top" Width="200" Click="BtnToevoegen_Click"/>
 
     </Grid>

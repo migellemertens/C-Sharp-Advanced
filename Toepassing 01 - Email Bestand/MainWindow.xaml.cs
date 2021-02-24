@@ -22,15 +22,17 @@ namespace Toepassing_01___Email_Bestand
     /// </summary>
     public partial class MainWindow : Window
     {
-        
+        string fileLocation;
         public MainWindow()
         {
             InitializeComponent();
+            BtnInlezenDictionary.IsEnabled = false;
+            BtnWegschrijvenDictionary.IsEnabled = false;
         }
 
         private void BtnInlezen_Click(object sender, RoutedEventArgs e)
         {
-            string bestandsnaam = @"C:\Users\migelle\Documents\Development\C# Advanced\files\e_mai.txt";
+            string bestandsnaam = @"C:\Users\migelle\Documents\Development\C# Advanced\files\e_mail.txt";
 
             try
             {
@@ -47,7 +49,7 @@ namespace Toepassing_01___Email_Bestand
         {
             OpenFileDialog ofd = new OpenFileDialog();
             ofd.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
-            string fileLocation;
+            
 
             if (ofd.ShowDialog() == true)
             {
@@ -69,7 +71,10 @@ namespace Toepassing_01___Email_Bestand
 
         private void BtnToevoegen_Click(object sender, RoutedEventArgs e)
         {
+            string naam = TxtNaam.Text;
+            string email = TxtEmailadres.Text;
 
+            Toevoegen(naam, email);
         }
 
         private void Inlezenbestand(string bestandsnaam)
@@ -91,6 +96,13 @@ namespace Toepassing_01___Email_Bestand
             reader.Close();
 
             TxtResultaat.Text = inlezenBestand.ToString();
+        }
+
+        private void Toevoegen(string naam, string email)
+        {
+
+            
+
         }
     }
 }
