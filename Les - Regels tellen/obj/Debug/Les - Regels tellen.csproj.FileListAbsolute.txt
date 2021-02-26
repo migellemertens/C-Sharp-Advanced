@@ -1,0 +1,15 @@
+C:\Users\migelle\Documents\Development\C# Advanced\Les - Regels tellen\bin\Debug\Les - Regels tellen.exe.config
+C:\Users\migelle\Documents\Development\C# Advanced\Les - Regels tellen\bin\Debug\Les - Regels tellen.exe
+C:\Users\migelle\Documents\Development\C# Advanced\Les - Regels tellen\bin\Debug\Les - Regels tellen.pdb
+C:\Users\migelle\Documents\Development\C# Advanced\Les - Regels tellen\obj\Debug\Les - Regels tellen.csprojAssemblyReference.cache
+C:\Users\migelle\Documents\Development\C# Advanced\Les - Regels tellen\obj\Debug\MainWindow.g.cs
+C:\Users\migelle\Documents\Development\C# Advanced\Les - Regels tellen\obj\Debug\App.g.cs
+C:\Users\migelle\Documents\Development\C# Advanced\Les - Regels tellen\obj\Debug\Les - Regels tellen_MarkupCompile.cache
+C:\Users\migelle\Documents\Development\C# Advanced\Les - Regels tellen\obj\Debug\Les - Regels tellen_MarkupCompile.lref
+C:\Users\migelle\Documents\Development\C# Advanced\Les - Regels tellen\obj\Debug\MainWindow.baml
+C:\Users\migelle\Documents\Development\C# Advanced\Les - Regels tellen\obj\Debug\Les - Regels tellen.g.resources
+C:\Users\migelle\Documents\Development\C# Advanced\Les - Regels tellen\obj\Debug\Les___Regels_tellen.Properties.Resources.resources
+C:\Users\migelle\Documents\Development\C# Advanced\Les - Regels tellen\obj\Debug\Les - Regels tellen.csproj.GenerateResource.cache
+C:\Users\migelle\Documents\Development\C# Advanced\Les - Regels tellen\obj\Debug\Les - Regels tellen.csproj.CoreCompileInputs.cache
+C:\Users\migelle\Documents\Development\C# Advanced\Les - Regels tellen\obj\Debug\Les - Regels tellen.exe
+C:\Users\migelle\Documents\Development\C# Advanced\Les - Regels tellen\obj\Debug\Les - Regels tellen.pdb
