@@ -1,0 +1,14 @@
+﻿<Window x:Class="Les___Sportleden.sportleden"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Les___Sportleden"
+        mc:Ignorable="d"
+        Title="sportleden" Height="732" Width="872" Initialized="Window_Initialized">
+    <Grid>
+        <TextBox x:Name="txtResultaat" HorizontalAlignment="Left" Height="624" 
+                 Margin="69,26,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"
+                 Width="753" VerticalScrollBarVisibility="Visible" FontSize="20"/>
+    </Grid>
+</Window>

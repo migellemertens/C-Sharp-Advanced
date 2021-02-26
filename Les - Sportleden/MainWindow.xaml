@@ -1,0 +1,18 @@
+﻿<Window x:Class="Les___Sportleden.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Les___Sportleden"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Initialized="Window_Initialized" Closing="Window_Closing">
+    <Grid>
+        <ListBox x:Name="lstSportNamen" HorizontalAlignment="Left" Height="139" Margin="210,54,0,0"
+                 VerticalAlignment="Top" Width="270" FontSize="22" >
+        </ListBox>
+        <Button x:Name="BtnToonLeden" Content="Toon leden" HorizontalAlignment="Left" Height="48" 
+                Margin="145,248,0,0" VerticalAlignment="Top" Width="199" Click="BtnToonLeden_Click" FontSize="22"/>
+        <Button x:Name="BtnToonLeden2" Content="Toon leden 2" HorizontalAlignment="Left" Height="48" Margin="437,248,0,0"
+                VerticalAlignment="Top" Width="189" Click="BtnToonLeden2_Click" FontSize="22"/>
+    </Grid>
+</Window>

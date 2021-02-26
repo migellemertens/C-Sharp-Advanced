@@ -1,0 +1,17 @@
+C:\Users\migelle\Documents\Development\C# Advanced\Les - Sportleden\obj\Debug\Les - Sportleden.csprojAssemblyReference.cache
+C:\Users\migelle\Documents\Development\C# Advanced\Les - Sportleden\obj\Debug\MainWindow.g.cs
+C:\Users\migelle\Documents\Development\C# Advanced\Les - Sportleden\obj\Debug\App.g.cs
+C:\Users\migelle\Documents\Development\C# Advanced\Les - Sportleden\obj\Debug\Les - Sportleden_MarkupCompile.cache
+C:\Users\migelle\Documents\Development\C# Advanced\Les - Sportleden\obj\Debug\Les - Sportleden_MarkupCompile.lref
+C:\Users\migelle\Documents\Development\C# Advanced\Les - Sportleden\bin\Debug\Les - Sportleden.exe.config
+C:\Users\migelle\Documents\Development\C# Advanced\Les - Sportleden\bin\Debug\Les - Sportleden.exe
+C:\Users\migelle\Documents\Development\C# Advanced\Les - Sportleden\bin\Debug\Les - Sportleden.pdb
+C:\Users\migelle\Documents\Development\C# Advanced\Les - Sportleden\obj\Debug\MainWindow.baml
+C:\Users\migelle\Documents\Development\C# Advanced\Les - Sportleden\obj\Debug\Les - Sportleden.g.resources
+C:\Users\migelle\Documents\Development\C# Advanced\Les - Sportleden\obj\Debug\Les___Sportleden.Properties.Resources.resources
+C:\Users\migelle\Documents\Development\C# Advanced\Les - Sportleden\obj\Debug\Les - Sportleden.csproj.GenerateResource.cache
+C:\Users\migelle\Documents\Development\C# Advanced\Les - Sportleden\obj\Debug\Les - Sportleden.csproj.CoreCompileInputs.cache
+C:\Users\migelle\Documents\Development\C# Advanced\Les - Sportleden\obj\Debug\Les - Sportleden.exe
+C:\Users\migelle\Documents\Development\C# Advanced\Les - Sportleden\obj\Debug\Les - Sportleden.pdb
+C:\Users\migelle\Documents\Development\C# Advanced\Les - Sportleden\obj\Debug\sportleden.g.cs
+C:\Users\migelle\Documents\Development\C# Advanced\Les - Sportleden\obj\Debug\sportleden.baml
