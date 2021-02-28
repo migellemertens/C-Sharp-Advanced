@@ -1,0 +1,15 @@
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\Open Text File\bin\Debug\Open Text File.exe.config
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\Open Text File\bin\Debug\Open Text File.exe
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\Open Text File\bin\Debug\Open Text File.pdb
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\Open Text File\obj\Debug\Open Text File.csprojAssemblyReference.cache
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\Open Text File\obj\Debug\MainWindow.g.cs
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\Open Text File\obj\Debug\App.g.cs
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\Open Text File\obj\Debug\Open Text File_MarkupCompile.cache
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\Open Text File\obj\Debug\Open Text File_MarkupCompile.lref
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\Open Text File\obj\Debug\MainWindow.baml
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\Open Text File\obj\Debug\Open Text File.g.resources
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\Open Text File\obj\Debug\Open_Text_File.Properties.Resources.resources
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\Open Text File\obj\Debug\Open Text File.csproj.GenerateResource.cache
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\Open Text File\obj\Debug\Open Text File.csproj.CoreCompileInputs.cache
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\Open Text File\obj\Debug\Open Text File.exe
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\Open Text File\obj\Debug\Open Text File.pdb
