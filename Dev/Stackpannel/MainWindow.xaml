@@ -1,0 +1,16 @@
+﻿<Window x:Class="Stackpannel.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Stackpannel"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="332.386" Width="293.75">
+    <Grid>
+        <StackPanel HorizontalAlignment="Left" Height="272" VerticalAlignment="Top" Width="171" Background="AliceBlue">
+            <Button x:Name="calculateButton" Width="171" Height="40" Content="calculate"/>
+            <TextBox x:Name="inputTextBox" Width="120" Height="30" Margin="0,50,0,0" />
+        </StackPanel>
+
+    </Grid>
+</Window>
