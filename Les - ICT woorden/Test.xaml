@@ -1,0 +1,22 @@
+﻿<Window x:Class="Les___ICT_woorden.Test"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Les___ICT_woorden"
+        mc:Ignorable="d"
+        Title="Test" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="lblStudent" HorizontalAlignment="Left" Margin="110,86,0,0" VerticalAlignment="Top" Content="Engels woord:" RenderTransformOrigin="1.077,1.048" Height="40" Width="175" FontSize="24" FontFamily="Arial"/>
+        <TextBox x:Name="txtEngelsWoord" HorizontalAlignment="Left" Height="40" Margin="347,86,0,0"
+                 TextWrapping="Wrap" VerticalAlignment="Top" Width="276" FontSize="24"
+                 RenderTransformOrigin="0.38,1.901" FontFamily="Arial" IsEnabled="False"/>
+        <Label x:Name="lblOpleiding" HorizontalAlignment="Left" Margin="110,145,0,0" VerticalAlignment="Top" Content="Nederlands woord:" RenderTransformOrigin="1.077,1.048" Height="35" Width="215" FontSize="24" FontFamily="Arial"/>
+        <TextBox x:Name="txtNederlandsWoord" HorizontalAlignment="Left" Margin="347,145,0,0" VerticalAlignment="Top" 
+            Width="276" Height="35" FontSize="24" />
+        <Button x:Name="btnZoeken" Content="Zoeken" HorizontalAlignment="Left" Margin="191,296,0,0" 
+            VerticalAlignment="Top" Width="153" Height="39" FontSize="24" Click="btnZoeken_Click" FontFamily="Arial"/>
+        <Button x:Name="btnControle" Content="Controle&#xA;" HorizontalAlignment="Left" Margin="470,296,0,0" 
+            VerticalAlignment="Top" Width="175" Height="39" FontSize="24" Click="btnControle_Click" FontFamily="Arial"/>
+    </Grid>
+</Window>

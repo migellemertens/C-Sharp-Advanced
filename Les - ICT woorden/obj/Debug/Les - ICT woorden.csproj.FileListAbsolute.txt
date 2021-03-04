@@ -1,0 +1,19 @@
+C:\Users\migelle\Documents\Development\C# Advanced\Les - ICT woorden\obj\Debug\Les - ICT woorden.csprojAssemblyReference.cache
+C:\Users\migelle\Documents\Development\C# Advanced\Les - ICT woorden\obj\Debug\Login.g.cs
+C:\Users\migelle\Documents\Development\C# Advanced\Les - ICT woorden\obj\Debug\MainWindow.g.cs
+C:\Users\migelle\Documents\Development\C# Advanced\Les - ICT woorden\obj\Debug\App.g.cs
+C:\Users\migelle\Documents\Development\C# Advanced\Les - ICT woorden\obj\Debug\Les - ICT woorden_MarkupCompile.cache
+C:\Users\migelle\Documents\Development\C# Advanced\Les - ICT woorden\obj\Debug\Les - ICT woorden_MarkupCompile.lref
+C:\Users\migelle\Documents\Development\C# Advanced\Les - ICT woorden\bin\Debug\Les - ICT woorden.exe.config
+C:\Users\migelle\Documents\Development\C# Advanced\Les - ICT woorden\bin\Debug\Les - ICT woorden.exe
+C:\Users\migelle\Documents\Development\C# Advanced\Les - ICT woorden\bin\Debug\Les - ICT woorden.pdb
+C:\Users\migelle\Documents\Development\C# Advanced\Les - ICT woorden\obj\Debug\Login.baml
+C:\Users\migelle\Documents\Development\C# Advanced\Les - ICT woorden\obj\Debug\MainWindow.baml
+C:\Users\migelle\Documents\Development\C# Advanced\Les - ICT woorden\obj\Debug\Les - ICT woorden.g.resources
+C:\Users\migelle\Documents\Development\C# Advanced\Les - ICT woorden\obj\Debug\Les___ICT_woorden.Properties.Resources.resources
+C:\Users\migelle\Documents\Development\C# Advanced\Les - ICT woorden\obj\Debug\Les - ICT woorden.csproj.GenerateResource.cache
+C:\Users\migelle\Documents\Development\C# Advanced\Les - ICT woorden\obj\Debug\Les - ICT woorden.csproj.CoreCompileInputs.cache
+C:\Users\migelle\Documents\Development\C# Advanced\Les - ICT woorden\obj\Debug\Les - ICT woorden.exe
+C:\Users\migelle\Documents\Development\C# Advanced\Les - ICT woorden\obj\Debug\Les - ICT woorden.pdb
+C:\Users\migelle\Documents\Development\C# Advanced\Les - ICT woorden\obj\Debug\Test.g.cs
+C:\Users\migelle\Documents\Development\C# Advanced\Les - ICT woorden\obj\Debug\Test.baml

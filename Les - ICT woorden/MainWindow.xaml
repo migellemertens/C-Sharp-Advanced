@@ -1,0 +1,36 @@
+﻿<Window x:Class="Les___ICT_woorden.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Les___ICT_woorden"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="547.959" Width="1191.837" Closing="Window_Closing">
+    <DockPanel>
+        <Menu x:Name= "Hoofdmenu" DockPanel.Dock="Top" >
+            <MenuItem Header="Bestand" >
+                <MenuItem x:Name="MnuInlezen" Header="Inlezen" Click="MnuInlezen_Click" />
+                <MenuItem x:Name="MnuBewaren" Header="Bewaren" Click="MnuBewaren_Click" />
+            </MenuItem>
+            <MenuItem x:Name="MnuOefenen" Header="Oefenen" Click="MnuOefenen_Click" >
+            </MenuItem>
+        </Menu>
+        <Grid>
+            <Label x:Name="lblStudent" HorizontalAlignment="Left" Margin="603,351,0,0" VerticalAlignment="Top" Content="Engels woord:" RenderTransformOrigin="1.077,1.048" Height="40" Width="175" FontSize="24" FontFamily="Arial"/>
+            <TextBox x:Name="txtWoordEngels" HorizontalAlignment="Left" Height="40" Margin="840,351,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="276" FontSize="24" RenderTransformOrigin="0.38,1.901" FontFamily="Arial"/>
+            <Button x:Name="btnToevoegen" Content="Toevoegen" HorizontalAlignment="Left" Margin="575,84,0,0" 
+                VerticalAlignment="Top" Width="343" Height="39" FontSize="24
+                " Click="btnToevoegen_Click" FontFamily="Arial"/>
+            <Button x:Name="btnWegschrijven" Content="Verbetering wegschrijven" HorizontalAlignment="Left" Margin="575,261,0,0"
+                VerticalAlignment="Top" Width="343" Height="44" FontSize="24" Click="btnWegschrijvenVerbetering_Click" FontFamily="Arial"/>
+            <Label x:Name="lblOpleiding" HorizontalAlignment="Left" Margin="603,410,0,0" VerticalAlignment="Top" Content="Nederlands woord:" RenderTransformOrigin="1.077,1.048" Height="35" Width="215" FontSize="24" FontFamily="Arial"/>
+            <TextBox x:Name="txtWoordNederlands" HorizontalAlignment="Left" Margin="840,410,0,0" VerticalAlignment="Top" 
+            Width="276" Height="35" FontSize="24" FontFamily="Arial" />
+            <Button x:Name="btnVerwijderen" Content="Verwijderen" HorizontalAlignment="Left" Margin="575,147,0,0" 
+            VerticalAlignment="Top" Width="343" Height="39" FontSize="24" Click="btnVerwijderen_Click" FontFamily="Arial"/>
+            <Button x:Name="btnVerbeteren" Content="Verbeteren&#xA;" HorizontalAlignment="Left" Margin="575,202,0,0" 
+            VerticalAlignment="Top" Width="343" Height="39" FontSize="24" Click="btnVerbeteren_Click" FontFamily="Arial"/>
+            <ListBox x:Name="lstWoorden" HorizontalAlignment="Left" Height="395" Margin="115,50,0,0" VerticalAlignment="Top" Width="434"/>
+        </Grid>
+    </DockPanel>
+</Window>
