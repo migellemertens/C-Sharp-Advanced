@@ -1,0 +1,27 @@
+﻿<Window x:Class="Les___Bankrekening_klasse.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Les___Bankrekening_klasse"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Storting (+) / Geldopname (-):" HorizontalAlignment="Left" Margin="102,70,0,0" 
+               VerticalAlignment="Top" FontSize="24"/>
+        <Label x:Name="lblMunteenheid" Content="Stand rekening:" HorizontalAlignment="Left" Margin="102,146,0,0" VerticalAlignment="Top" FontSize="24" Width="264" Height="43"/>
+        <TextBox x:Name="txtStand" HorizontalAlignment="Left" Height="43" Margin="400,146,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="142" FontSize="24" FontFamily="Arial" IsEnabled="False"/>
+        <TextBox x:Name="txtBedrag" HorizontalAlignment="Left" Height="42" Margin="444,70,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="98" FontSize="22" RenderTransformOrigin="0.38,1.901" FontFamily="Arial" KeyDown="txtBedrag_KeyDown"/>
+        <Button x:Name="btnWisselMuntEenheid" Content="Wisselen Munteenheid" HorizontalAlignment="Left" 
+                Margin="102,217,0,0" VerticalAlignment="Top" Width="247" Height="57" FontSize="20" Click="btnWisselMuntEenheid_Click"/>
+
+
+        <!--button heeft zelf geen propterty voor centreren van tekst - kan omzeild worden door 
+        "ingekapseld" een TextBlock te definiÃ«ren.
+        opm: geen Width en Heigth instellen voor het TextBlock, dat kan desgevallend bij de Button -->
+        <Button Margin="102,310,179,52" x:Name="btnTonen" Click="btnTonen_Click">
+            <TextBlock Text="Tonen gegevens van verschillende objecten (instanties)"
+                       TextWrapping="Wrap" FontSize="20" TextAlignment="Center"/>
+        </Button>
+    </Grid>
+</Window>
