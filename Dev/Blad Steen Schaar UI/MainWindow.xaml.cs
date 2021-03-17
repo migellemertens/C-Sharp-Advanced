@@ -36,10 +36,12 @@ namespace Blad_Steen_Schaar_UI
             if(this.WindowState == WindowState.Maximized)
             {
                 this.WindowState = WindowState.Normal;
+                this.BorderThickness = new Thickness(0);
             }
             else
             {
                 this.WindowState = WindowState.Maximized;
+                this.BorderThickness = new Thickness(6);
             }
         }
 
@@ -58,12 +60,17 @@ namespace Blad_Steen_Schaar_UI
 
         private void BtnBlad_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("click worked");
+            MessageBox.Show("click blad worked");
         }
 
         private void BtnSteen_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("click steen worked");
+        }
+
+        private void BtnSchaar_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("click schaar worked!");
         }
     }
 }
