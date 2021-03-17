@@ -91,8 +91,7 @@
             </StackPanel>
         </ControlTemplate>
         <!--#endregion-->
-        
-        <!--#region Submenuitems layout-->
+        <!--#region SUB MENU ITEMS LAYOUT-->
         <ControlTemplate x:Key="subMenuItem" TargetType="MenuItem">
             <!--Set submenuitem size, margin and color-->
             <DockPanel TextBlock.FontSize="18" x:Name="panel">
@@ -124,9 +123,9 @@
         </Grid.RowDefinitions>
 
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="10*"/>
+            <ColumnDefinition Width="15*"/>
             <ColumnDefinition Width="20"/>
-            <ColumnDefinition Width="60*"/>
+            <ColumnDefinition Width="65*"/>
             <ColumnDefinition Width="20*"/>
         </Grid.ColumnDefinitions>
 

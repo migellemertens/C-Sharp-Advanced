@@ -23,6 +23,7 @@ namespace Blad_Steen_Schaar_UI
         public MainWindow()
         {
             InitializeComponent();
+            this.MaxHeight = SystemParameters.MaximizedPrimaryScreenHeight;
         }
 
         private void BtnSluiten_Click(object sender, RoutedEventArgs e)
