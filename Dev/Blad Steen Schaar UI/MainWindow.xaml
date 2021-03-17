@@ -11,7 +11,9 @@
         WindowStartupLocation="CenterScreen"
         AllowsTransparency="True"
         Background="#181735"
-        FontFamily="Fonts/#Dosis">
+        FontFamily="Fonts/#Dosis"
+        MaxWidth="1920"
+        MaxHeight="1000">
     <Window.Resources>
         <!--#region Close Button-->
         <Style x:Key="closeButton" TargetType="Button">
@@ -71,7 +73,7 @@
         <ControlTemplate x:Key="topMenuItem" TargetType="MenuItem">
             <StackPanel TextBlock.FontSize="18" Height="40">
                 <Label Content="{TemplateBinding Header}" Margin="5,5,30,0" Foreground="White"/>
-                
+
                 <!--Sub menu item-->
                 <Popup IsOpen="{TemplateBinding IsSubmenuOpen}" AllowsTransparency="True" Focusable="False">
                     <Border BorderThickness="1" Background="#0F0F2D" BorderBrush="#0F0F2D">
@@ -111,9 +113,107 @@
         </ControlTemplate>
         <!--#endregion-->
 
+        <ImageBrush x:Key="hoverBlad" ImageSource="img/blad.png" />
+        <ImageBrush x:Key="hoverSteen" ImageSource="img/steen.png"/>
+        <ImageBrush x:Key="hoverSchaar" ImageSource="img/schaar.png"/>
+
+        <Style x:Key="FocusVisual">
+            <Setter Property="Control.Template">
+                <Setter.Value>
+                    <ControlTemplate>
+                        <Rectangle Margin="2" SnapsToDevicePixels="true" Stroke="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}" StrokeThickness="1" StrokeDashArray="1 2"/>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <SolidColorBrush x:Key="Button.Static.Background" Color="#FFDDDDDD"/>
+        <SolidColorBrush x:Key="Button.Static.Border" Color="#FF707070"/>
+        <SolidColorBrush x:Key="Button.MouseOver.Background" Color="#FFBEE6FD"/>
+        <SolidColorBrush x:Key="Button.MouseOver.Border" Color="#FF3C7FB1"/>
+        <SolidColorBrush x:Key="Button.Pressed.Background" Color="#FFC4E5F6"/>
+        <SolidColorBrush x:Key="Button.Pressed.Border" Color="#FF2C628B"/>
+        <SolidColorBrush x:Key="Button.Disabled.Background" Color="#FFF4F4F4"/>
+        <SolidColorBrush x:Key="Button.Disabled.Border" Color="#FFADB2B5"/>
+        <SolidColorBrush x:Key="Button.Disabled.Foreground" Color="#FF838383"/>
+        <Style x:Key="ButtonBlad" TargetType="{x:Type Button}">
+            <Setter Property="FocusVisualStyle" Value="{StaticResource FocusVisual}"/>
+            <Setter Property="Background" Value="{StaticResource Button.Static.Background}"/>
+            <Setter Property="BorderBrush" Value="{StaticResource Button.Static.Border}"/>
+            <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Padding" Value="1"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border x:Name="border" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" SnapsToDevicePixels="true">
+                            <ContentPresenter x:Name="contentPresenter" Focusable="False" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsDefaulted" Value="true">
+                                <Setter Property="BorderBrush" TargetName="border" Value="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}"/>
+                            </Trigger>
+                            <Trigger Property="IsMouseOver" Value="true">
+                                <Setter Property="Background" TargetName="border" Value="{StaticResource hoverBlad}"/>
+                                <Setter Property="BorderBrush" TargetName="border" Value="{StaticResource Button.MouseOver.Border}"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="true">
+                                <Setter Property="Background" TargetName="border" Value="{StaticResource hoverBlad}"/>
+                                <Setter Property="BorderBrush" TargetName="border" Value="{StaticResource Button.Pressed.Border}"/>
+                            </Trigger>
+                            <Trigger Property="IsEnabled" Value="false">
+                                <Setter Property="Background" TargetName="border" Value="{StaticResource Button.Disabled.Background}"/>
+                                <Setter Property="BorderBrush" TargetName="border" Value="{StaticResource Button.Disabled.Border}"/>
+                                <Setter Property="TextElement.Foreground" TargetName="contentPresenter" Value="{StaticResource Button.Disabled.Foreground}"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="ButtonSteen" TargetType="{x:Type Button}">
+            <Setter Property="FocusVisualStyle" Value="{StaticResource FocusVisual}"/>
+            <Setter Property="Background" Value="{StaticResource Button.Static.Background}"/>
+            <Setter Property="BorderBrush" Value="{StaticResource Button.Static.Border}"/>
+            <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Padding" Value="1"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border x:Name="border" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" SnapsToDevicePixels="true">
+                            <ContentPresenter x:Name="contentPresenter" Focusable="False" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsDefaulted" Value="true">
+                                <Setter Property="BorderBrush" TargetName="border" Value="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}"/>
+                            </Trigger>
+                            <Trigger Property="IsMouseOver" Value="true">
+                                <Setter Property="Background" TargetName="border" Value="{StaticResource hoverSteen}"/>
+                                <Setter Property="BorderBrush" TargetName="border" Value="{StaticResource Button.MouseOver.Border}"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="true">
+                                <Setter Property="Background" TargetName="border" Value="{StaticResource hoverSteen}"/>
+                                <Setter Property="BorderBrush" TargetName="border" Value="{StaticResource Button.Pressed.Border}"/>
+                            </Trigger>
+                            <Trigger Property="IsEnabled" Value="false">
+                                <Setter Property="Background" TargetName="border" Value="{StaticResource hoverSteen}"/>
+                                <Setter Property="BorderBrush" TargetName="border" Value="{StaticResource Button.Disabled.Border}"/>
+                                <Setter Property="TextElement.Foreground" TargetName="contentPresenter" Value="{StaticResource Button.Disabled.Foreground}"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
     </Window.Resources>
 
-        
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="25"/>
@@ -123,11 +223,12 @@
         </Grid.RowDefinitions>
 
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="15*"/>
+            <ColumnDefinition Width="13*"/>
             <ColumnDefinition Width="20"/>
-            <ColumnDefinition Width="65*"/>
+            <ColumnDefinition Width="68*"/>
             <ColumnDefinition Width="20*"/>
         </Grid.ColumnDefinitions>
+
 
         <Grid Background="#0F0F2D" Grid.ColumnSpan="4" MouseDown="Grid_MouseDown">
             <Grid.ColumnDefinitions>
@@ -154,30 +255,26 @@
         </Grid>
 
         <Grid Grid.ColumnSpan="4" Grid.Row="1">
-                <Menu>
-                    <MenuItem Template="{StaticResource topMenuItem}" Header="Bestand">
-                        <MenuItem Template="{StaticResource subMenuItem}" Header="Sluiten"/>
-                    </MenuItem>
-                    <MenuItem Template="{StaticResource topMenuItem}" Header="Help">
-                        <MenuItem Template="{StaticResource subMenuItem}" Header="Regels"/>
-                    </MenuItem>
-                </Menu>
-        </Grid>
-
-        <Grid Grid.ColumnSpan="4" Grid.Row="3">
-            <StatusBar HorizontalAlignment="Stretch" Height="40" Background="#181735"/>
+            <Menu>
+                <MenuItem Template="{StaticResource topMenuItem}" Header="Bestand">
+                    <MenuItem Template="{StaticResource subMenuItem}" Header="Sluiten"/>
+                </MenuItem>
+                <MenuItem Template="{StaticResource topMenuItem}" Header="Help">
+                    <MenuItem Template="{StaticResource subMenuItem}" Header="Regels"/>
+                </MenuItem>
+            </Menu>
         </Grid>
 
         <StackPanel Grid.Row="2" Grid.ColumnSpan="1"  Margin="20">
-            <Viewbox Margin="0,0,0,20">
-                <Button x:Name="BtnBlad" BorderThickness="0">
+            <Viewbox Margin="0,0,0,30">
+                <Button x:Name="BtnBlad" BorderThickness="0" Style="{DynamicResource ButtonBlad}" Click="BtnBlad_Click">
                     <Button.Background>
                         <ImageBrush ImageSource="img/blad.png" Stretch="UniformToFill" RenderOptions.BitmapScalingMode="Fant"/>
                     </Button.Background>
                 </Button>
             </Viewbox>
-            <Viewbox Margin="0,0,0,20">
-                <Button x:Name="BtnSteen" BorderThickness="0">
+            <Viewbox Margin="0,0,0,30">
+                <Button x:Name="BtnSteen" BorderThickness="0" Style="{DynamicResource ButtonSteen}" Click="BtnSteen_Click">
                     <Button.Background>
                         <ImageBrush ImageSource="img/steen.png" Stretch="UniformToFill" RenderOptions.BitmapScalingMode="Fant"/>
                     </Button.Background>
@@ -194,7 +291,6 @@
                 <Label x:Name="LblResterendeTijd" Content="10" Foreground="White" FontWeight="Medium" />
             </Viewbox>
         </StackPanel>
-
 
     </Grid>
 

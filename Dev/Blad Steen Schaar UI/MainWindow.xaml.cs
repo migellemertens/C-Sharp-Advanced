@@ -56,6 +56,14 @@ namespace Blad_Steen_Schaar_UI
             }
         }
 
-       
+        private void BtnBlad_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("click worked");
+        }
+
+        private void BtnSteen_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("click steen worked");
+        }
     }
 }
