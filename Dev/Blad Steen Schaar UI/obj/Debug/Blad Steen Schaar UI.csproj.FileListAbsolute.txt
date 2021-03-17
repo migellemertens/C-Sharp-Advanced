@@ -1,0 +1,15 @@
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\Blad Steen Schaar UI\obj\Debug\Blad Steen Schaar UI.csprojAssemblyReference.cache
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\Blad Steen Schaar UI\obj\Debug\MainWindow.g.cs
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\Blad Steen Schaar UI\obj\Debug\App.g.cs
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\Blad Steen Schaar UI\obj\Debug\Blad Steen Schaar UI_MarkupCompile.cache
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\Blad Steen Schaar UI\obj\Debug\Blad Steen Schaar UI_MarkupCompile.lref
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\Blad Steen Schaar UI\bin\Debug\Blad Steen Schaar UI.exe.config
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\Blad Steen Schaar UI\bin\Debug\Blad Steen Schaar UI.exe
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\Blad Steen Schaar UI\bin\Debug\Blad Steen Schaar UI.pdb
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\Blad Steen Schaar UI\obj\Debug\MainWindow.baml
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\Blad Steen Schaar UI\obj\Debug\Blad Steen Schaar UI.g.resources
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\Blad Steen Schaar UI\obj\Debug\Blad_Steen_Schaar_UI.Properties.Resources.resources
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\Blad Steen Schaar UI\obj\Debug\Blad Steen Schaar UI.csproj.GenerateResource.cache
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\Blad Steen Schaar UI\obj\Debug\Blad Steen Schaar UI.csproj.CoreCompileInputs.cache
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\Blad Steen Schaar UI\obj\Debug\Blad Steen Schaar UI.exe
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\Blad Steen Schaar UI\obj\Debug\Blad Steen Schaar UI.pdb
