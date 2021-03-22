@@ -1,0 +1,5 @@
+C:\Users\migelle\Documents\Development\C# Advanced\Les - objecten obv tekstbestand\obj\Debug\Les - objecten obv tekstbestand.csprojAssemblyReference.cache
+C:\Users\migelle\Documents\Development\C# Advanced\Les - objecten obv tekstbestand\obj\Debug\MainWindow.g.cs
+C:\Users\migelle\Documents\Development\C# Advanced\Les - objecten obv tekstbestand\obj\Debug\App.g.cs
+C:\Users\migelle\Documents\Development\C# Advanced\Les - objecten obv tekstbestand\obj\Debug\Les - objecten obv tekstbestand_MarkupCompile.cache
+C:\Users\migelle\Documents\Development\C# Advanced\Les - objecten obv tekstbestand\obj\Debug\Les - objecten obv tekstbestand_MarkupCompile.lref

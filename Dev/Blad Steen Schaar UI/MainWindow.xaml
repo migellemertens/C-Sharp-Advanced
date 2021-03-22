@@ -114,12 +114,15 @@
         <!--#endregion-->
 
         <!--#region STYLE KEUZE BUTTONS -->
-        <ImageBrush x:Key="hoverBlad" ImageSource="img/blad.png" />
-        <ImageBrush x:Key="hoverSteen" ImageSource="img/steen.png"/>
-        <ImageBrush x:Key="hoverSchaar" ImageSource="img/schaar.png"/>
+        <ImageBrush x:Key="hoverBlad" ImageSource="img/blad_hover.png" />
+        <ImageBrush x:Key="blad" ImageSource="img/blad.png"/>
+        <ImageBrush x:Key="hoverSteen" ImageSource="img/steen_hover.png"/>
+        <ImageBrush x:Key="steen" ImageSource="img/steen.png"/>
+        <ImageBrush x:Key="hoverSchaar" ImageSource="img/schaar_hover.png"/>
+        <ImageBrush x:Key="schaar" ImageSource="img/schaar.png"/>
 
         <Style x:Key="ButtonBlad" TargetType="{x:Type Button}">
-            <Setter Property="Background" Value="{StaticResource hoverBlad}"/>
+            <Setter Property="Background" Value="{StaticResource blad}"/>
             <Setter Property="Cursor" Value="Hand"/>
             <Setter Property="Template">
                 <Setter.Value>
@@ -141,7 +144,7 @@
         </Style>
 
         <Style x:Key="ButtonSteen" TargetType="{x:Type Button}">
-            <Setter Property="Background" Value="{StaticResource hoverSteen}"/>
+            <Setter Property="Background" Value="{StaticResource steen}"/>
             <Setter Property="Cursor" Value="Hand"/>
             <Setter Property="Template">
                 <Setter.Value>
@@ -163,7 +166,7 @@
         </Style>
 
         <Style x:Key="ButtonSchaar" TargetType="{x:Type Button}">
-            <Setter Property="Background" Value="{StaticResource hoverSchaar}"/>
+            <Setter Property="Background" Value="{StaticResource schaar}"/>
             <Setter Property="Cursor" Value="Hand"/>
             <Setter Property="Template">
                 <Setter.Value>
@@ -191,7 +194,8 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="25"/>
             <RowDefinition Height="40"/>
-            <RowDefinition Height="*"/>
+            <RowDefinition Height="80*"/>
+            <RowDefinition Height="20*"/>
             <RowDefinition Height="40"/>
         </Grid.RowDefinitions>
 
@@ -254,7 +258,7 @@
 
 
         <!-- STATUS BAR -->
-        <StatusBar Grid.Row="3" Grid.ColumnSpan="4" Background="#0F0F2D" Foreground="White" HorizontalAlignment="Stretch">
+        <StatusBar Grid.Row="4" Grid.ColumnSpan="4" Background="#0F0F2D" Foreground="White" HorizontalAlignment="Stretch">
             <StatusBarItem Content="Ready" Foreground="White" Margin="10,0,5,0"/>
             <StatusBarItem Margin="5,0,5,0">
                 <Image Source="img/logo.png" />
@@ -268,8 +272,8 @@
         </StatusBar>
 
         <!-- GRID VOOR HET SPEELVELD -->
-        <Grid Grid.Column="2" Grid.Row="2">
-            <!-- SPEELVELD GRID DEFINITIES-->
+        <!--<Grid Grid.Column="2" Grid.Row="2">
+            --><!-- SPEELVELD GRID DEFINITIES--><!--
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
@@ -280,7 +284,7 @@
                 <RowDefinition Height="35*"/>
             </Grid.RowDefinitions>
 
-            <!-- SPEELVELD GEBRUIKER -->
+            --><!-- SPEELVELD GEBRUIKER --><!--
             <Grid Grid.Row="0" Grid.Column="0" Margin="20">
                 <Image Source="img/blad.png"/>
             </Grid>
@@ -290,7 +294,7 @@
                 </Viewbox>
             </Grid>
             
-            <!-- SPEELVELD COMPUTER -->
+            --><!-- SPEELVELD COMPUTER --><!--
             <Grid Grid.Row="0" Grid.Column="1" Margin="20">
                 <Image Source="img/blad.png"/>
             </Grid>
@@ -299,7 +303,37 @@
                     <Label Content="5" Foreground="White"/>
                 </Viewbox>
             </Grid>
+        </Grid>-->
+
+        <Grid Grid.Row="2" Grid.Column="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="50*"/>
+                <ColumnDefinition Width="50*"/>
+            </Grid.ColumnDefinitions>
+
+            <Image Grid.Column="0" Source="img/klok.png" Margin="30"/>
+            <Image Grid.Column="1" Source="img/klok.png" Margin="30"/>
         </Grid>
+
+        <Viewbox Grid.Row="3" Grid.Column="0">
+            <Label Content="10" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="100"/>
+        </Viewbox>
+
+        <Grid Grid.Row="3" Grid.Column="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="50*"/>
+                <ColumnDefinition Width="50*"/>
+            </Grid.ColumnDefinitions>
+
+            <Viewbox Grid.Column="0">
+                <Label Content="10" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="100"/>
+            </Viewbox>
+            <Viewbox Grid.Column="1">
+                <Label Content="10" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="100"/>
+            </Viewbox>
+        </Grid>   
+
+
 
     </Grid>
 

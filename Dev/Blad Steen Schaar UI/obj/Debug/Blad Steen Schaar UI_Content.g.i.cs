@@ -8,6 +8,8 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("img/logo.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("img/blad_hover.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("img/schaar_hover.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("img/steen_hover.png")]
 
 

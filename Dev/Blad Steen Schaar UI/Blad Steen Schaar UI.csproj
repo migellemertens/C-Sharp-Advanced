@@ -112,5 +112,10 @@
   <ItemGroup>
     <Resource Include="img\logo.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\blad_hover.png" />
+    <Resource Include="img\schaar_hover.png" />
+    <Resource Include="img\steen_hover.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
