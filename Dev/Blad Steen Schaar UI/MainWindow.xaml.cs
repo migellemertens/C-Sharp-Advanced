@@ -61,6 +61,9 @@ namespace Blad_Steen_Schaar_UI
         private void BtnBlad_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("click blad worked");
+            BtnBlad.BorderBrush = new SolidColorBrush(Colors.Green);
+            BtnBlad.BorderThickness = new Thickness(10);
+
         }
 
         private void BtnSteen_Click(object sender, RoutedEventArgs e)
