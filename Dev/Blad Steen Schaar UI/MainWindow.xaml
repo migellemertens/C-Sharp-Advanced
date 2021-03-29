@@ -113,80 +113,24 @@
         </ControlTemplate>
         <!--#endregion-->
 
-        <!--#region STYLE KEUZE BUTTONS -->
-        <ImageBrush x:Key="hoverBlad" ImageSource="img/blad_hover.png" />
-        <ImageBrush x:Key="blad" ImageSource="img/blad.png"/>
-        <ImageBrush x:Key="hoverSteen" ImageSource="img/steen_hover.png"/>
-        <ImageBrush x:Key="steen" ImageSource="img/steen.png"/>
-        <ImageBrush x:Key="hoverSchaar" ImageSource="img/schaar_hover.png"/>
-        <ImageBrush x:Key="schaar" ImageSource="img/schaar.png"/>
-
-        <Style x:Key="ButtonBlad" TargetType="{x:Type Button}">
-            <Setter Property="Background" Value="{StaticResource blad}"/>
+        <Style x:Key="removeHighlight" TargetType="Button">
+            <Setter Property="OverridesDefaultStyle" Value="True"/>
             <Setter Property="Cursor" Value="Hand"/>
             <Setter Property="Template">
                 <Setter.Value>
-                    <ControlTemplate TargetType="{x:Type Button}">
-                        <Border x:Name="border" Background="{TemplateBinding Background}" SnapsToDevicePixels="true">
-                            <ContentPresenter x:Name="contentPresenter" Focusable="False" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" />
+                    <ControlTemplate TargetType="Button">
+                        <Border Name="border" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" Background="{TemplateBinding Background}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
                         </Border>
                         <ControlTemplate.Triggers>
                             <Trigger Property="IsMouseOver" Value="True">
-                                <Setter Property="Background" Value="{StaticResource hoverBlad}"/>
-                            </Trigger>
-                            <Trigger Property="IsPressed" Value="True">
-                                <Setter Property="Background" Value="{StaticResource hoverBlad}"/>
+                                <Setter Property="Opacity" Value="1"/>
                             </Trigger>
                         </ControlTemplate.Triggers>
                     </ControlTemplate>
                 </Setter.Value>
             </Setter>
         </Style>
-
-        <Style x:Key="ButtonSteen" TargetType="{x:Type Button}">
-            <Setter Property="Background" Value="{StaticResource steen}"/>
-            <Setter Property="Cursor" Value="Hand"/>
-            <Setter Property="Template">
-                <Setter.Value>
-                    <ControlTemplate TargetType="{x:Type Button}">
-                        <Border x:Name="border" Background="{TemplateBinding Background}" SnapsToDevicePixels="true">
-                            <ContentPresenter x:Name="contentPresenter" Focusable="False" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" />
-                        </Border>
-                        <ControlTemplate.Triggers>
-                            <Trigger Property="IsMouseOver" Value="True">
-                                <Setter Property="Background" Value="{StaticResource hoverSteen}"/>
-                            </Trigger>
-                            <Trigger Property="IsPressed" Value="True">
-                                <Setter Property="Background" Value="{StaticResource hoverSteen}"/>
-                            </Trigger>
-                        </ControlTemplate.Triggers>
-                    </ControlTemplate>
-                </Setter.Value>
-            </Setter>
-        </Style>
-
-        <Style x:Key="ButtonSchaar" TargetType="{x:Type Button}">
-            <Setter Property="Background" Value="{StaticResource schaar}"/>
-            <Setter Property="Cursor" Value="Hand"/>
-            <Setter Property="Template">
-                <Setter.Value>
-                    <ControlTemplate TargetType="{x:Type Button}">
-                        <Border x:Name="border" Background="{TemplateBinding Background}" SnapsToDevicePixels="true">
-                            <ContentPresenter x:Name="contentPresenter" Focusable="False" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" />
-                        </Border>
-                        <ControlTemplate.Triggers>
-                            <Trigger Property="IsMouseOver" Value="True">
-                                <Setter Property="Background" Value="{StaticResource hoverSchaar}"/>
-                            </Trigger>
-                            <Trigger Property="IsPressed" Value="True">
-                                <Setter Property="Background" Value="{StaticResource hoverSchaar}"/>
-                            </Trigger>
-                        </ControlTemplate.Triggers>
-                    </ControlTemplate>
-                </Setter.Value>
-            </Setter>
-        </Style>
-        <!--#endregion-->
     </Window.Resources>
 
     <Grid>
@@ -244,16 +188,16 @@
         </Grid>
 
         <!-- STACKPANEL MET GEBRUIKERSKEUZES -->
-        <StackPanel Grid.Row="2" Grid.ColumnSpan="1"  Margin="20">
-            <Viewbox Margin="0,0,0,30">
-                <Button x:Name="BtnBlad" Style="{DynamicResource ButtonBlad}" Click="BtnBlad_Click"/>
-            </Viewbox>
-            <Viewbox Margin="0,0,0,30">
-                <Button x:Name="BtnSteen" Style="{DynamicResource ButtonSteen}" Click="BtnSteen_Click"/>
-            </Viewbox>
-            <Viewbox Margin="0,0,0,20">
-                <Button x:Name="BtnSchaar" Style="{DynamicResource ButtonSchaar}" Click="BtnSchaar_Click"/>
-            </Viewbox>
+        <StackPanel Grid.Row="2" Grid.ColumnSpan="1"  Margin="10">
+            <Button x:Name="btnBlad" Style="{StaticResource removeHighlight}" Background="Transparent" BorderBrush="Transparent" Margin="0,0,0,20" MouseEnter="btnBlad_MouseEnter" Click="BtnBlad_Click" MouseLeave="btnBlad_MouseLeave">
+                <Image x:Name="imgButtonBlad" Source="img/blad.png" RenderOptions.BitmapScalingMode="Fant"/>
+            </Button>
+            <Button x:Name="btnSteen" Style="{StaticResource removeHighlight}" Background="Transparent" BorderBrush="Transparent" Margin="0,0,0,20" MouseEnter="btnSteen_MouseEnter" Click="BtnSteen_Click" MouseLeave="btnSteen_MouseLeave">
+                <Image x:Name="imgButtonSteen" Source="img/steen.png" RenderOptions.BitmapScalingMode="Fant"/>
+            </Button>
+            <Button x:Name="btnSchaar" Style="{StaticResource removeHighlight}" Background="Transparent" BorderBrush="Transparent" MouseEnter="btnSchaar_MouseEnter" Click="BtnSchaar_Click" MouseLeave="btnSchaar_MouseLeave">
+                <Image x:Name="imgButtonSchaar" Source="img/schaar.png" RenderOptions.BitmapScalingMode="Fant"/>
+            </Button>
         </StackPanel>
 
 

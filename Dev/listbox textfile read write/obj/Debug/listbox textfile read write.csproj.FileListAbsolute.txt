@@ -1,0 +1,15 @@
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\listbox textfile read write\bin\Debug\listbox textfile read write.exe.config
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\listbox textfile read write\bin\Debug\listbox textfile read write.exe
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\listbox textfile read write\bin\Debug\listbox textfile read write.pdb
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\listbox textfile read write\obj\Debug\listbox textfile read write.csprojAssemblyReference.cache
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\listbox textfile read write\obj\Debug\MainWindow.g.cs
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\listbox textfile read write\obj\Debug\App.g.cs
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\listbox textfile read write\obj\Debug\listbox textfile read write_MarkupCompile.cache
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\listbox textfile read write\obj\Debug\listbox textfile read write_MarkupCompile.lref
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\listbox textfile read write\obj\Debug\MainWindow.baml
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\listbox textfile read write\obj\Debug\listbox textfile read write.g.resources
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\listbox textfile read write\obj\Debug\listbox_textfile_read_write.Properties.Resources.resources
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\listbox textfile read write\obj\Debug\listbox textfile read write.csproj.GenerateResource.cache
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\listbox textfile read write\obj\Debug\listbox textfile read write.csproj.CoreCompileInputs.cache
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\listbox textfile read write\obj\Debug\listbox textfile read write.exe
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\listbox textfile read write\obj\Debug\listbox textfile read write.pdb
