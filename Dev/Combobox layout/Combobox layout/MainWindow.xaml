@@ -1,0 +1,19 @@
+﻿<Window x:Class="Combobox_layout.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Combobox_layout"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Background="DarkBlue">
+    <Grid>
+        <Border CornerRadius="10,0,10,0">
+            <ComboBox HorizontalAlignment="Left" Margin="229,74,0,0" VerticalAlignment="Top" Width="159" Background="Transparent">
+                <ComboBoxItem>Captain America</ComboBoxItem>
+                <ComboBoxItem>Iron Main</ComboBoxItem>
+                <ComboBoxItem>Thor</ComboBoxItem>
+                <ComboBoxItem>Spider-Man</ComboBoxItem>
+            </ComboBox>
+        </Border>
+    </Grid>
+</Window>

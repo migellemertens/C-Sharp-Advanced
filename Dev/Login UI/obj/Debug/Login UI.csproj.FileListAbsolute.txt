@@ -1,0 +1,17 @@
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\Login UI\bin\Debug\Login UI.exe.config
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\Login UI\bin\Debug\Login UI.exe
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\Login UI\bin\Debug\Login UI.pdb
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\Login UI\obj\Debug\Login UI.csprojAssemblyReference.cache
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\Login UI\obj\Debug\MainWindow.g.cs
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\Login UI\obj\Debug\App.g.cs
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\Login UI\obj\Debug\Login UI_MarkupCompile.cache
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\Login UI\obj\Debug\Login UI_MarkupCompile.lref
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\Login UI\obj\Debug\MainWindow.baml
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\Login UI\obj\Debug\Login UI.g.resources
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\Login UI\obj\Debug\Login_UI.Properties.Resources.resources
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\Login UI\obj\Debug\Login UI.csproj.GenerateResource.cache
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\Login UI\obj\Debug\Login UI.csproj.CoreCompileInputs.cache
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\Login UI\obj\Debug\Login UI.exe
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\Login UI\obj\Debug\Login UI.pdb
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\Login UI\obj\Debug\ModernButtonTheme.baml
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\Login UI\obj\Debug\App.baml

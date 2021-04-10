@@ -1,0 +1,15 @@
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\Timer pause\Timer pause\bin\Debug\Timer pause.exe.config
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\Timer pause\Timer pause\bin\Debug\Timer pause.exe
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\Timer pause\Timer pause\bin\Debug\Timer pause.pdb
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\Timer pause\Timer pause\obj\Debug\Timer pause.csprojAssemblyReference.cache
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\Timer pause\Timer pause\obj\Debug\MainWindow.g.cs
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\Timer pause\Timer pause\obj\Debug\App.g.cs
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\Timer pause\Timer pause\obj\Debug\Timer pause_MarkupCompile.cache
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\Timer pause\Timer pause\obj\Debug\Timer pause_MarkupCompile.lref
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\Timer pause\Timer pause\obj\Debug\MainWindow.baml
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\Timer pause\Timer pause\obj\Debug\Timer pause.g.resources
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\Timer pause\Timer pause\obj\Debug\Timer_pause.Properties.Resources.resources
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\Timer pause\Timer pause\obj\Debug\Timer pause.csproj.GenerateResource.cache
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\Timer pause\Timer pause\obj\Debug\Timer pause.csproj.CoreCompileInputs.cache
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\Timer pause\Timer pause\obj\Debug\Timer pause.exe
+C:\Users\migelle\Documents\Development\C# Advanced\Dev\Timer pause\Timer pause\obj\Debug\Timer pause.pdb
